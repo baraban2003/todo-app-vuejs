@@ -11,15 +11,3 @@
     <script type="module" src="./src/main.js"></script>
   </body>
 </html>
-
-<!--
-This error occurs because Vite (and most modern build tools) handle module resolution and import rewriting during development and build.
-You cannot open index.html directly in the browser for a Vite app. 
-You must use `vite build` and deploy the output in `dist/` to GitHub Pages.
--->
-
-<!-- To fix for GitHub Pages:
-1. Run `vite build` to generate the production files in the `dist/` folder.
-2. Deploy the contents of `dist/` (not the root project) to GitHub Pages.
-3. Do not open index.html directly from the source folder.
--->
