@@ -28,3 +28,4 @@ npm run dev
 npm run build
 ```
 # deploy trigger
+# deploy trigger
